@@ -1,0 +1,5 @@
+#!/bin/sh
+# オプションは、.envとconfig.jsで設定する
+echo Start update from Sansan to Kintone
+cd bin
+node kintone $@
